@@ -1,5 +1,6 @@
 import React from "react";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+// eslint-disable-next-line no-unused-vars
 import MutationObserver from 'mutationobserver-shim';
 
 import CheckoutForm from "./components/CheckoutForm";

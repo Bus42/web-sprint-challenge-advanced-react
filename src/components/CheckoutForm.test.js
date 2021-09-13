@@ -1,5 +1,5 @@
 import React from "react";
-// eslint-disable-next-line
+// eslint-disable-next-line no-unused-vars
 import MutationObserver from "mutationobserver-shim";
 import { render, screen, waitFor } from "@testing-library/react";
 import CheckoutForm from "./CheckoutForm";
@@ -30,5 +30,4 @@ test("shows success message on submit with form details", async () => {
   await waitFor(() => {
     screen.getByTestId("successMessage");
   });
-  
 });
